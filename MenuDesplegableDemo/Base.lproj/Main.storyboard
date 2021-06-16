@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vbq-3r-VVE">
-                                <rect key="frame" x="10" y="47" width="414" height="70"/>
+                                <rect key="frame" x="10" y="47" width="394" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenidos - Menu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6K1-rs-46L">
-                                        <rect key="frame" x="10" y="10" width="394" height="50"/>
+                                        <rect key="frame" x="-10" y="10" width="394" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="Gwu-fU-l3L"/>
                                         </constraints>
@@ -29,10 +29,10 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <color key="backgroundColor" red="0.8028594255" green="0.70435088869999996" blue="0.85859149690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="6K1-rs-46L" firstAttribute="leading" secondItem="vbq-3r-VVE" secondAttribute="leading" constant="10" id="0gb-hO-4o1"/>
-                                    <constraint firstAttribute="height" constant="70" id="GzD-7U-Zhn"/>
+                                    <constraint firstItem="6K1-rs-46L" firstAttribute="leading" secondItem="vbq-3r-VVE" secondAttribute="leading" constant="-10" id="0gb-hO-4o1"/>
+                                    <constraint firstAttribute="height" constant="60" id="GzD-7U-Zhn"/>
                                     <constraint firstAttribute="trailing" secondItem="6K1-rs-46L" secondAttribute="trailing" constant="10" id="f35-93-dFw"/>
                                     <constraint firstItem="6K1-rs-46L" firstAttribute="top" secondItem="vbq-3r-VVE" secondAttribute="top" constant="10" id="ygd-l5-UPr"/>
                                 </constraints>
@@ -47,7 +47,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="vbq-3r-VVE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="3" id="k2K-EL-Hpw"/>
-                            <constraint firstItem="vbq-3r-VVE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="10" id="nzi-Cf-kgM"/>
+                            <constraint firstItem="vbq-3r-VVE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-10" id="nzi-Cf-kgM"/>
                             <constraint firstItem="vbq-3r-VVE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="oTd-Ks-Zdf"/>
                         </constraints>
                     </view>

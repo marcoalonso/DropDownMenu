@@ -3,7 +3,7 @@
 //  MenuDesplegableDemo
 //
 //  Created by marco rodriguez on 15/06/21.
-//
+// doc: https://cocoapods.org/pods/DropDown 
 
 import UIKit
 import DropDown
@@ -21,6 +21,16 @@ class ViewController: UIViewController {
             "Pagina5",
             "Pagina6",
         ]
+        menu.backgroundColor = #colorLiteral(red: 0.9930781722, green: 0.7825699449, blue: 0.8652152419, alpha: 1)
+        menu.animationduration = 0.5
+        menu.width = 200
+        menu.direction = .any // .bottom, .top
+        menu.dismissMode = .automatic
+        menu.textFont = .boldSystemFont(ofSize: 20)
+        menu.cellHeight = 80
+        menu.cornerRadius = 12
+        menu.selectionBackgroundColor = #colorLiteral(red: 0.9907129407, green: 0.6854662299, blue: 0.7990468144, alpha: 1)
+        menu.selectedTextColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         
         let imagenes = [
             "person",
