@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		6012A18926799E1300B99425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6012A18726799E1300B99425 /* Main.storyboard */; };
 		6012A18B26799E1400B99425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6012A18A26799E1400B99425 /* Assets.xcassets */; };
 		6012A18E26799E1400B99425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6012A18C26799E1400B99425 /* LaunchScreen.storyboard */; };
+		6012A1992679A5FF00B99425 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6012A1972679A5FF00B99425 /* DropDownCell.swift */; };
+		6012A19A2679A5FF00B99425 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6012A1982679A5FF00B99425 /* DropDownCell.xib */; };
 		E18B0DE510ECC9FD4C7168F9 /* Pods_MenuDesplegableDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6D889437C2B62328A214B5 /* Pods_MenuDesplegableDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +28,8 @@
 		6012A18A26799E1400B99425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6012A18D26799E1400B99425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6012A18F26799E1400B99425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6012A1972679A5FF00B99425 /* DropDownCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
+		6012A1982679A5FF00B99425 /* DropDownCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DropDownCell.xib; sourceTree = "<group>"; };
 		A7ED2970FCE3D54E838B8363 /* Pods-MenuDesplegableDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenuDesplegableDemo.debug.xcconfig"; path = "Target Support Files/Pods-MenuDesplegableDemo/Pods-MenuDesplegableDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CD64DDFCF6022E85FE98E146 /* Pods-MenuDesplegableDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MenuDesplegableDemo.release.xcconfig"; path = "Target Support Files/Pods-MenuDesplegableDemo/Pods-MenuDesplegableDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +82,8 @@
 				6012A18A26799E1400B99425 /* Assets.xcassets */,
 				6012A18C26799E1400B99425 /* LaunchScreen.storyboard */,
 				6012A18F26799E1400B99425 /* Info.plist */,
+				6012A1972679A5FF00B99425 /* DropDownCell.swift */,
+				6012A1982679A5FF00B99425 /* DropDownCell.xib */,
 			);
 			path = MenuDesplegableDemo;
 			sourceTree = "<group>";
@@ -88,7 +94,6 @@
 				A7ED2970FCE3D54E838B8363 /* Pods-MenuDesplegableDemo.debug.xcconfig */,
 				CD64DDFCF6022E85FE98E146 /* Pods-MenuDesplegableDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -153,6 +158,7 @@
 			files = (
 				6012A18E26799E1400B99425 /* LaunchScreen.storyboard in Resources */,
 				6012A18B26799E1400B99425 /* Assets.xcassets in Resources */,
+				6012A19A2679A5FF00B99425 /* DropDownCell.xib in Resources */,
 				6012A18926799E1300B99425 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +214,7 @@
 			files = (
 				6012A18626799E1300B99425 /* ViewController.swift in Sources */,
 				6012A18226799E1300B99425 /* AppDelegate.swift in Sources */,
+				6012A1992679A5FF00B99425 /* DropDownCell.swift in Sources */,
 				6012A18426799E1300B99425 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
